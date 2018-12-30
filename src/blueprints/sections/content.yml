@@ -3,6 +3,9 @@ fields:
   desc:
     label: Description
     type: textarea
+    buttons: false
   text:
     label: Content
-    type: textarea
+    type: markdown
+    font: sans-serif
+    invisibles: true

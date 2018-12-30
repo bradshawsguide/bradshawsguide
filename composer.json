@@ -22,8 +22,12 @@
   "repositories": [{
     "type": "vcs",
     "url": "https://github.com/k-next/kirby"
+  },{
+    "type": "vcs",
+    "url": "https://github.com/sylvainjule/kirby-markdown-field"
   }],
   "require": {
+    "community/markdown-field": "dev-master",
     "getkirby/cms": "dev-master",
     "sylvainjule/locator": "^1.0",
     "omz13/kirby3-xmlsitemap": "^0.5.3"

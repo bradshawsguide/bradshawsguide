@@ -1,4 +1,5 @@
 /etc/ssl/
+/kirby/
 /src/accounts/
 /vendor/
 /www/.well-known/

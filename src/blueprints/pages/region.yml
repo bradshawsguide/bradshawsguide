@@ -11,6 +11,10 @@ columns:
             label: Featured places
             type: pages
             max: 6
+            layout: cards
+            image:
+              cover: true
+              ratio: 16/9
   - width: 1/3
     sections:
       images:
