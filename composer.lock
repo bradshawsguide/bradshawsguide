@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-markdown-field.git",
-                "reference": "e0ecc991182957a7e6e5dfa68b8b0a11d056fbb5"
+                "reference": "be894f09187f3000fee345df2abdab1adef2f971"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-markdown-field/zipball/e0ecc991182957a7e6e5dfa68b8b0a11d056fbb5",
-                "reference": "e0ecc991182957a7e6e5dfa68b8b0a11d056fbb5",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-markdown-field/zipball/be894f09187f3000fee345df2abdab1adef2f971",
+                "reference": "be894f09187f3000fee345df2abdab1adef2f971",
                 "shasum": ""
             },
             "type": "kirby-plugin",
@@ -83,7 +83,7 @@
                 "source": "https://github.com/sylvainjule/kirby-markdown-field/tree/master",
                 "issues": "https://github.com/sylvainjule/kirby-markdown-field/issues"
             },
-            "time": "2018-12-28T23:51:53+00:00"
+            "time": "2019-01-04T11:36:19+00:00"
         },
         {
             "name": "filp/whoops",
