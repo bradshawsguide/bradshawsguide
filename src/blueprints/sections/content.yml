@@ -7,5 +7,7 @@ fields:
   text:
     label: Content
     type: markdown
-    font: sans-serif
+    font:
+      family: sans-serif
+      size: small
     invisibles: true

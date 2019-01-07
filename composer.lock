@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0467a63e560bfba88557372e8941a47d",
+    "content-hash": "73f1646b4f4361864cf71cf91d65123b",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -44,46 +44,6 @@
             ],
             "description": "A PHP class that makes working with images as simple as possible.",
             "time": "2017-09-12T09:03:56+00:00"
-        },
-        {
-            "name": "community/markdown-field",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sylvainjule/kirby-markdown-field.git",
-                "reference": "be894f09187f3000fee345df2abdab1adef2f971"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-markdown-field/zipball/be894f09187f3000fee345df2abdab1adef2f971",
-                "reference": "be894f09187f3000fee345df2abdab1adef2f971",
-                "shasum": ""
-            },
-            "type": "kirby-plugin",
-            "autoload": {
-                "files": [
-                    "config.php"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sylvain Julé",
-                    "email": "contact@sylvain-jule.fr"
-                },
-                {
-                    "name": "Fabian Michael",
-                    "email": "hallo@fabianmichael.de"
-                }
-            ],
-            "description": "Enhanced markdown editor for Kirby 3",
-            "support": {
-                "source": "https://github.com/sylvainjule/kirby-markdown-field/tree/master",
-                "issues": "https://github.com/sylvainjule/kirby-markdown-field/issues"
-            },
-            "time": "2019-01-04T11:36:19+00:00"
         },
         {
             "name": "filp/whoops",
@@ -148,50 +108,21 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "dev-master",
+            "version": "3.0.0-RC-5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/k-next/kirby.git",
-                "reference": "5e0bdadce20307fb3f8e06d8cc235d24129bbde3"
+                "reference": "a82446a978b861b7ab9950d141392c22efd3b542"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/k-next/kirby/zipball/5e0bdadce20307fb3f8e06d8cc235d24129bbde3",
-                "reference": "5e0bdadce20307fb3f8e06d8cc235d24129bbde3",
+                "url": "https://api.github.com/repos/k-next/kirby/zipball/a82446a978b861b7ab9950d141392c22efd3b542",
+                "reference": "a82446a978b861b7ab9950d141392c22efd3b542",
                 "shasum": ""
-            },
-            "archive": {
-                "exclude": [
-                    ".*",
-                    "/*.dist",
-                    "/*.md",
-                    "test.php",
-                    "/scripts",
-                    "/panel/*",
-                    "!/panel/dist/*",
-                    "/panel/dist/index.html",
-                    "/tests/*",
-                    "!/vendor/*",
-                    "/vendor/*/*/.*",
-                    "/vendor/*/*/*.json",
-                    "/vendor/*/*/*.txt",
-                    "/vendor/*/*/*.md",
-                    "/vendor/*/*/*.yml",
-                    "/vendor/*/*/*.yaml",
-                    "/vendor/*/*/*.xml",
-                    "/vendor/*/*/*.dist",
-                    "/vendor/*/*/LICENSE",
-                    "/vendor/*/*/COPYING",
-                    "/vendor/*/*/docs/*",
-                    "/vendor/*/*/example/*",
-                    "/vendor/*/*/examples/*",
-                    "/vendor/*/*/test/*",
-                    "/vendor/*/*/tests/*",
-                    "/vendor/*/*/php4/*"
-                ]
             },
             "require": {
                 "claviska/simpleimage": "3.3.*",
+                "ext-ctype": "*",
                 "ext-mbstring": "*",
                 "filp/whoops": "2.3.*",
                 "getkirby/composer-installer": "*",
@@ -202,15 +133,12 @@
                 "true/punycode": "2.1.*",
                 "zendframework/zend-escaper": "2.6.*"
             },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.11.1",
-                "phpunit/phpunit": "^6.0"
-            },
             "type": "kirby-cms",
             "autoload": {
                 "files": [
                     "config/helpers.php",
-                    "config/aliases.php"
+                    "config/aliases.php",
+                    "config/tests.php"
                 ],
                 "classmap": [
                     "dependencies/"
@@ -219,14 +147,12 @@
                     "Kirby\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Kirby\\": "tests/"
-                }
-            },
             "scripts": {
+                "analyze": [
+                    "phpstan analyse src"
+                ],
                 "test": [
-                    "./vendor/bin/phpunit --stderr --coverage-html=tests/coverage"
+                    "phpunit --stderr --coverage-html=tests/coverage"
                 ],
                 "zip": [
                     "composer archive --format=zip --file=dist"
@@ -235,9 +161,12 @@
                     "./scripts/build"
                 ],
                 "fix": [
-                    "./vendor/bin/php-cs-fixer fix ."
+                    "php-cs-fixer fix ."
                 ]
             },
+            "license": [
+                "proprietary"
+            ],
             "authors": [
                 {
                     "name": "Kirby Team",
@@ -245,10 +174,11 @@
                     "homepage": "https://getkirby.com"
                 }
             ],
-            "description": "Kirby CMS",
+            "description": "The Kirby 3 core",
             "homepage": "https://getkirby.com",
             "keywords": [
                 "cms",
+                "core",
                 "kirby"
             ],
             "support": {
@@ -257,7 +187,7 @@
                 "forum": "https://forum.getkirby.com",
                 "source": "https://github.com/getkirby/kirby"
             },
-            "time": "2018-12-28T13:11:39+00:00"
+            "time": "2019-01-11T15:23:48+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -296,6 +226,46 @@
             "description": "Kirby's custom Composer installer for the Kirby CMS",
             "homepage": "https://getkirby.com",
             "time": "2018-12-19T10:01:45+00:00"
+        },
+        {
+            "name": "k-community/markdown-field",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sylvainjule/kirby-markdown-field.git",
+                "reference": "956182ae938bd419b580c18ba454ac1fa6e1457a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-markdown-field/zipball/956182ae938bd419b580c18ba454ac1fa6e1457a",
+                "reference": "956182ae938bd419b580c18ba454ac1fa6e1457a",
+                "shasum": ""
+            },
+            "type": "kirby-plugin",
+            "autoload": {
+                "files": [
+                    "config.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sylvain Julé",
+                    "email": "contact@sylvain-jule.fr"
+                },
+                {
+                    "name": "Fabian Michael",
+                    "email": "hallo@fabianmichael.de"
+                }
+            ],
+            "description": "Enhanced markdown editor for Kirby 3",
+            "support": {
+                "source": "https://github.com/sylvainjule/kirby-markdown-field/tree/1.0.0",
+                "issues": "https://github.com/sylvainjule/kirby-markdown-field/issues"
+            },
+            "time": "2019-01-12T15:42:51+00:00"
         },
         {
             "name": "league/color-extractor",
@@ -453,20 +423,20 @@
         },
         {
             "name": "omz13/kirby3-xmlsitemap",
-            "version": "0.5.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/omz13/kirby3-xmlsitemap.git",
-                "reference": "f78217d33382d5e2a995b2684b940f612cd71ddd"
+                "reference": "551a9c6144efe37df0f0c0a341665d939e16e23d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/omz13/kirby3-xmlsitemap/zipball/f78217d33382d5e2a995b2684b940f612cd71ddd",
-                "reference": "f78217d33382d5e2a995b2684b940f612cd71ddd",
+                "url": "https://api.github.com/repos/omz13/kirby3-xmlsitemap/zipball/551a9c6144efe37df0f0c0a341665d939e16e23d",
+                "reference": "551a9c6144efe37df0f0c0a341665d939e16e23d",
                 "shasum": ""
             },
             "require": {
-                "getkirby/cms": "dev-master as 3.0.0",
+                "getkirby/cms": "^3.0.0-RC-2.0",
                 "php": ">=7.1"
             },
             "require-dev": {
@@ -507,7 +477,7 @@
                 "kirby3",
                 "plugin"
             ],
-            "time": "2018-11-21T16:09:11+00:00"
+            "time": "2019-01-08T12:47:27+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -810,8 +780,7 @@
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": {
-        "community/markdown-field": 20,
-        "getkirby/cms": 20
+        "omz13/kirby3-xmlsitemap": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
