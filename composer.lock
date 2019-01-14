@@ -108,30 +108,30 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.0.0-RC-5.0",
+            "version": "3.0.0-RC-6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/k-next/kirby.git",
-                "reference": "a82446a978b861b7ab9950d141392c22efd3b542"
+                "reference": "d7cb2c69a305aa796533b53fddcc83129ab641b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/k-next/kirby/zipball/a82446a978b861b7ab9950d141392c22efd3b542",
-                "reference": "a82446a978b861b7ab9950d141392c22efd3b542",
+                "url": "https://api.github.com/repos/k-next/kirby/zipball/d7cb2c69a305aa796533b53fddcc83129ab641b0",
+                "reference": "d7cb2c69a305aa796533b53fddcc83129ab641b0",
                 "shasum": ""
             },
             "require": {
-                "claviska/simpleimage": "3.3.*",
+                "claviska/simpleimage": "3.3.3",
                 "ext-ctype": "*",
                 "ext-mbstring": "*",
-                "filp/whoops": "2.3.*",
+                "filp/whoops": "2.3.1",
                 "getkirby/composer-installer": "*",
-                "michelf/php-smartypants": "1.8.*",
-                "mustangostang/spyc": "0.6.*",
+                "michelf/php-smartypants": "1.8.1",
+                "mustangostang/spyc": "0.6.2",
                 "php": ">=7.1.0",
-                "phpmailer/phpmailer": "6.0.*",
-                "true/punycode": "2.1.*",
-                "zendframework/zend-escaper": "2.6.*"
+                "phpmailer/phpmailer": "6.0.6",
+                "true/punycode": "2.1.1",
+                "zendframework/zend-escaper": "2.6.0"
             },
             "type": "kirby-cms",
             "autoload": {
@@ -147,23 +147,7 @@
                     "Kirby\\": "src/"
                 }
             },
-            "scripts": {
-                "analyze": [
-                    "phpstan analyse src"
-                ],
-                "test": [
-                    "phpunit --stderr --coverage-html=tests/coverage"
-                ],
-                "zip": [
-                    "composer archive --format=zip --file=dist"
-                ],
-                "build": [
-                    "./scripts/build"
-                ],
-                "fix": [
-                    "php-cs-fixer fix ."
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -181,13 +165,7 @@
                 "core",
                 "kirby"
             ],
-            "support": {
-                "email": "support@getkirby.com",
-                "issues": "https://github.com/getkirby/kirby/issues",
-                "forum": "https://forum.getkirby.com",
-                "source": "https://github.com/getkirby/kirby"
-            },
-            "time": "2019-01-11T15:23:48+00:00"
+            "time": "2019-01-14T09:47:17+00:00"
         },
         {
             "name": "getkirby/composer-installer",

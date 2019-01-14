@@ -1,4 +1,5 @@
 title: Region
+num: zero
 columns:
   - width: 2/3
     sections:
@@ -29,5 +30,10 @@ columns:
       children:
         type: pages
         info: "Section {{ page.section }}"
+        query: page.children
+        templates:
+          - place
+          - places
+          - region
         image:
           cover: true

@@ -1,13 +1,9 @@
 type: fields
 fields:
-  desc:
-    label: Description
-    type: textarea
-    buttons: false
   text:
     label: Content
     type: markdown
     font:
       family: sans-serif
-      size: small
+      size: large
     invisibles: true

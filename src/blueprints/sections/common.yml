@@ -6,6 +6,10 @@ fields:
   subtitle:
     label: Subtitle
     type: text
+  desc:
+    label: Description
+    type: textarea
+    buttons: false
   section:
     label: Section
     type: select
