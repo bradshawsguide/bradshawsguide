@@ -108,16 +108,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.0.0-RC-6.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/k-next/kirby.git",
-                "reference": "d7cb2c69a305aa796533b53fddcc83129ab641b0"
+                "url": "https://github.com/getkirby/kirby.git",
+                "reference": "72f01eac0a7db59360894e0cfb44680276260174"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/k-next/kirby/zipball/d7cb2c69a305aa796533b53fddcc83129ab641b0",
-                "reference": "d7cb2c69a305aa796533b53fddcc83129ab641b0",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/72f01eac0a7db59360894e0cfb44680276260174",
+                "reference": "72f01eac0a7db59360894e0cfb44680276260174",
                 "shasum": ""
             },
             "require": {
@@ -165,7 +165,7 @@
                 "core",
                 "kirby"
             ],
-            "time": "2019-01-14T09:47:17+00:00"
+            "time": "2019-01-15T08:15:26+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -211,12 +211,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-markdown-field.git",
-                "reference": "956182ae938bd419b580c18ba454ac1fa6e1457a"
+                "reference": "fe3d9df124668297422a9247d45fca8c308872c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-markdown-field/zipball/956182ae938bd419b580c18ba454ac1fa6e1457a",
-                "reference": "956182ae938bd419b580c18ba454ac1fa6e1457a",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-markdown-field/zipball/fe3d9df124668297422a9247d45fca8c308872c4",
+                "reference": "fe3d9df124668297422a9247d45fca8c308872c4",
                 "shasum": ""
             },
             "type": "kirby-plugin",
@@ -405,12 +405,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/omz13/kirby3-xmlsitemap.git",
-                "reference": "551a9c6144efe37df0f0c0a341665d939e16e23d"
+                "reference": "fd1e7d299a803db7528842d78f4365b55dc19137"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/omz13/kirby3-xmlsitemap/zipball/551a9c6144efe37df0f0c0a341665d939e16e23d",
-                "reference": "551a9c6144efe37df0f0c0a341665d939e16e23d",
+                "url": "https://api.github.com/repos/omz13/kirby3-xmlsitemap/zipball/fd1e7d299a803db7528842d78f4365b55dc19137",
+                "reference": "fd1e7d299a803db7528842d78f4365b55dc19137",
                 "shasum": ""
             },
             "require": {
@@ -420,7 +420,7 @@
             "require-dev": {
                 "jakub-onderka/php-parallel-lint": "^1.0",
                 "liip/rmt": "^1.4",
-                "localheinz/composer-normalize": "^0.8.0",
+                "localheinz/composer-normalize": "^1.0.0",
                 "omz13/omz13-coding-standard": "dev-master",
                 "phpcompatibility/php-compatibility": "^8.2",
                 "phpmd/phpmd": "^2.6",
@@ -455,7 +455,7 @@
                 "kirby3",
                 "plugin"
             ],
-            "time": "2019-01-08T12:47:27+00:00"
+            "time": "2019-01-15T23:42:56+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
