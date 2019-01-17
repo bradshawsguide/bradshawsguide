@@ -16,10 +16,6 @@ columns:
       meta:
         type: fields
         fields:
-          notes:
-            label: Notes
-            type: textarea
-            buttons: false
           info:
             label: Info
             type: structure
@@ -30,6 +26,10 @@ columns:
               desc:
                 label: Description
                 type: text
+          notes:
+            label: Notes
+            type: textarea
+            buttons: false
       content:
         extends: sections/content
       distances:
