@@ -12,7 +12,7 @@ fields:
     buttons: false
   section:
     label: Section
-    type: select
+    type: checkboxes
     options: query
     query:
       fetch: site.page(sections).children

@@ -1,10 +1,15 @@
 <?php
 
 return [
+    'attr' => [
+        'title'
+    ],
     'html' => function ($tag) {
+        $fieldname = empty($tag->value()) ? 'distances' : $tag->value();
+
         return snippet('scope/distances', [
-            'title' => $tag->attr('title', 'Distances of Places from the Station'),
-            'distances' => $tag->parent()->distances()->yaml()
+            'title' => $tag->title(),
+            'distances' => $tag->parent()->$fieldname()->yaml()
         ], true);
     }
 ];
