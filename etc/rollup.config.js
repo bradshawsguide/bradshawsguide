@@ -3,11 +3,7 @@ const resolve = require('rollup-plugin-node-resolve');
 const {terser} = require('rollup-plugin-terser');
 
 const plugins = [
-  resolve({
-    browser: true,
-    jsnext: true,
-    main: true
-  }),
+  resolve(),
   commonjs(),
   terser()
 ];
@@ -21,7 +17,7 @@ export default [{
     sourcemap: true
   },
   plugins
-},{
+}, {
   input: 'src/patterns/assets/scripts/map.js',
   output: {
     file: 'www/assets/map.js',
