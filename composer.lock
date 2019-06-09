@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73f1646b4f4361864cf71cf91d65123b",
+    "content-hash": "d98793c03f4ced5c177cfe0d96d064b6",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -108,16 +108,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.1.2-rc.1",
+            "version": "3.2.0-rc.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "5c1c34b8b0bce3a2e177c2041008d180449f0799"
+                "reference": "88d84f4df9738e285247a942f1f5cfce48949235"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/5c1c34b8b0bce3a2e177c2041008d180449f0799",
-                "reference": "5c1c34b8b0bce3a2e177c2041008d180449f0799",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/88d84f4df9738e285247a942f1f5cfce48949235",
+                "reference": "88d84f4df9738e285247a942f1f5cfce48949235",
                 "shasum": ""
             },
             "require": {
@@ -136,9 +136,7 @@
             "type": "kirby-cms",
             "autoload": {
                 "files": [
-                    "config/helpers.php",
-                    "config/aliases.php",
-                    "config/tests.php"
+                    "config/setup.php"
                 ],
                 "classmap": [
                     "dependencies/"
@@ -165,7 +163,7 @@
                 "core",
                 "kirby"
             ],
-            "time": "2019-04-02T10:53:10+00:00"
+            "time": "2019-06-06T14:42:55+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -403,12 +401,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/omz13/kirby3-xmlsitemap.git",
-                "reference": "6a821195660bbc7448f155acbe0e212dcbf9229e"
+                "reference": "905940bbc171130e545423da16ec475cb7494be7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/omz13/kirby3-xmlsitemap/zipball/6a821195660bbc7448f155acbe0e212dcbf9229e",
-                "reference": "6a821195660bbc7448f155acbe0e212dcbf9229e",
+                "url": "https://api.github.com/repos/omz13/kirby3-xmlsitemap/zipball/905940bbc171130e545423da16ec475cb7494be7",
+                "reference": "905940bbc171130e545423da16ec475cb7494be7",
                 "shasum": ""
             },
             "require": {
@@ -422,8 +420,8 @@
                 "omz13/omz13-coding-standard": "dev-master",
                 "phpcompatibility/php-compatibility": "^8.2",
                 "phpmd/phpmd": "^2.6",
-                "phpstan/phpstan": "^0.10.3",
-                "phpstan/phpstan-strict-rules": "^0.10.1",
+                "phpstan/phpstan": "^0.11",
+                "phpstan/phpstan-strict-rules": "^0.11",
                 "roave/security-advisories": "dev-master"
             },
             "type": "kirby-plugin",
@@ -450,7 +448,7 @@
                 "kirby3",
                 "plugin"
             ],
-            "time": "2019-03-26T02:27:24+00:00"
+            "time": "2019-04-24T20:37:51+00:00"
         },
         {
             "name": "phpmailer/phpmailer",

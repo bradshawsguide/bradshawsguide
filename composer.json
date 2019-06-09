@@ -24,5 +24,12 @@
     "sylvainjule/locator": "^1.0",
     "omz13/kirby3-xmlsitemap": "@dev",
     "k-community/markdown-field": "^1.0"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "extra": {
+    "kirby-cms-path": false,
+    "kirby-plugin-path": "src/plugins"
   }
 }
