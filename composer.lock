@@ -108,16 +108,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.2.1-rc.1",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "7371f59b77166a701ae0843575779bd847bfbeac"
+                "reference": "3175afeac359524da0896c4671cc9cffb08eb3e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/7371f59b77166a701ae0843575779bd847bfbeac",
-                "reference": "7371f59b77166a701ae0843575779bd847bfbeac",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/3175afeac359524da0896c4671cc9cffb08eb3e7",
+                "reference": "3175afeac359524da0896c4671cc9cffb08eb3e7",
                 "shasum": ""
             },
             "require": {
@@ -163,7 +163,7 @@
                 "core",
                 "kirby"
             ],
-            "time": "2019-07-02T13:27:35+00:00"
+            "time": "2019-11-05T08:14:24+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -205,16 +205,16 @@
         },
         {
             "name": "k-community/markdown-field",
-            "version": "1.0.1",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-markdown-field.git",
-                "reference": "268d9eb1e92929e2f793f6d9612e5205e8051c41"
+                "reference": "80321b8392fcce113cfe02f59a68dfef7a4564e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-markdown-field/zipball/268d9eb1e92929e2f793f6d9612e5205e8051c41",
-                "reference": "268d9eb1e92929e2f793f6d9612e5205e8051c41",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-markdown-field/zipball/80321b8392fcce113cfe02f59a68dfef7a4564e5",
+                "reference": "80321b8392fcce113cfe02f59a68dfef7a4564e5",
                 "shasum": ""
             },
             "require": {
@@ -239,7 +239,7 @@
                 }
             ],
             "description": "Enhanced markdown editor for Kirby 3",
-            "time": "2019-03-18T10:54:56+00:00"
+            "time": "2019-10-31T16:13:45+00:00"
         },
         {
             "name": "league/color-extractor",
@@ -518,16 +518,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
                 "shasum": ""
             },
             "require": {
@@ -536,7 +536,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -561,20 +561,20 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2018-11-20T15:27:04+00:00"
+            "time": "2019-11-01T11:05:21+00:00"
         },
         {
             "name": "sylvainjule/locator",
-            "version": "1.0.2",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-locator.git",
-                "reference": "1dc950d35dc8becfed6ed0f8fca57a70e48d3f43"
+                "reference": "de7a7af282c7d6960a2f203c4c70f5a2d4282e3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-locator/zipball/1dc950d35dc8becfed6ed0f8fca57a70e48d3f43",
-                "reference": "1dc950d35dc8becfed6ed0f8fca57a70e48d3f43",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-locator/zipball/de7a7af282c7d6960a2f203c4c70f5a2d4282e3a",
+                "reference": "de7a7af282c7d6960a2f203c4c70f5a2d4282e3a",
                 "shasum": ""
             },
             "require": {
@@ -595,20 +595,20 @@
                 }
             ],
             "description": "A map & geolocation field, built on top of open-source services / Mapbox",
-            "time": "2019-03-18T23:39:50+00:00"
+            "time": "2019-10-30T18:11:17+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.11.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609"
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fe5e94c604826c35a32fa832f35bd036b6799609",
-                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17",
                 "shasum": ""
             },
             "require": {
@@ -620,7 +620,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
             "autoload": {
@@ -654,7 +654,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-02-06T07:57:58+00:00"
+            "time": "2019-08-06T08:03:45+00:00"
         },
         {
             "name": "true/punycode",
