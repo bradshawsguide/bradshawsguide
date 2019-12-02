@@ -108,16 +108,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.3.0",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "3175afeac359524da0896c4671cc9cffb08eb3e7"
+                "reference": "785e941e41dfbfaa4fe8d43a7c130302bde4539a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/3175afeac359524da0896c4671cc9cffb08eb3e7",
-                "reference": "3175afeac359524da0896c4671cc9cffb08eb3e7",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/785e941e41dfbfaa4fe8d43a7c130302bde4539a",
+                "reference": "785e941e41dfbfaa4fe8d43a7c130302bde4539a",
                 "shasum": ""
             },
             "require": {
@@ -163,7 +163,7 @@
                 "core",
                 "kirby"
             ],
-            "time": "2019-11-05T08:14:24+00:00"
+            "time": "2019-11-26T09:55:04+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -205,16 +205,16 @@
         },
         {
             "name": "k-community/markdown-field",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-markdown-field.git",
-                "reference": "80321b8392fcce113cfe02f59a68dfef7a4564e5"
+                "reference": "58a34352f34a93b8cfc004c843caefd603617193"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-markdown-field/zipball/80321b8392fcce113cfe02f59a68dfef7a4564e5",
-                "reference": "80321b8392fcce113cfe02f59a68dfef7a4564e5",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-markdown-field/zipball/58a34352f34a93b8cfc004c843caefd603617193",
+                "reference": "58a34352f34a93b8cfc004c843caefd603617193",
                 "shasum": ""
             },
             "require": {
@@ -239,7 +239,7 @@
                 }
             ],
             "description": "Enhanced markdown editor for Kirby 3",
-            "time": "2019-10-31T16:13:45+00:00"
+            "time": "2019-11-21T18:38:35+00:00"
         },
         {
             "name": "league/color-extractor",
@@ -599,16 +599,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.12.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17"
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/b42a2f66e8f1b15ccf25652c3424265923eb4f17",
-                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7b4aab9743c30be783b73de055d24a39cf4b954f",
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f",
                 "shasum": ""
             },
             "require": {
@@ -620,7 +620,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -654,7 +654,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2019-11-27T14:18:11+00:00"
         },
         {
             "name": "true/punycode",

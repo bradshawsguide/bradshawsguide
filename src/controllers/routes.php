@@ -5,7 +5,7 @@ return function ($site, $pages, $page) {
     $companies = page('companies')->children()->sortBy('dirname');
 
     // Routes
-    $routes = page('routes')->children()->visible();
+    $routes = page('routes')->children()->listed();
     $featured = $routes->filter(function ($route) {
         return $route->hasImages();
     });

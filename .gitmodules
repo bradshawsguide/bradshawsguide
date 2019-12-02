@@ -1,9 +1,11 @@
 [submodule "src/plugins/geo"]
 	path = src/plugins/geo
-	url = git@github.com:getkirby-plugins/geo-plugin.git
+	url = git@github.com:chrispymm/geo-plugin.git
 [submodule "src/content"]
 	path = src/content
 	url = git@github.com:bradshawsguide/content.git
+	branch = kirby-v3
 [submodule "src/patterns"]
 	path = src/patterns
 	url = git@github.com:bradshawsguide/patterns.git
+	branch = kirby-v3
