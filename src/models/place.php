@@ -31,6 +31,8 @@ class PlacePage extends Kirby\Cms\Page
     }
 
     // Get nearby places (with images)
+    // TODO: Add location information to place data
+    // IDEA: A named station UID in the content?
     public function nearby()
     {
         $point = geo::point($this->location());

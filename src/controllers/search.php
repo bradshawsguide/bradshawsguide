@@ -27,7 +27,7 @@ return function ($site) {
         $places = page('places')->grandChildren()->children();
         $combined = $stations->merge($places)->sortBy('title');
 
-        $results = $combined->filterBy('location', 'radius', [
+        $results = $stations->filterBy('latlng', 'radius', [
             'lat' => $point->lat(),
             'lng' => $point->lng(),
             'radius' => 15
