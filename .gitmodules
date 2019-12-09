@@ -1,6 +1,3 @@
-[submodule "src/plugins/geo"]
-	path = src/plugins/geo
-	url = git@github.com:chrispymm/geo-plugin.git
 [submodule "src/content"]
 	path = src/content
 	url = git@github.com:bradshawsguide/content.git

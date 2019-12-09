@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d98793c03f4ced5c177cfe0d96d064b6",
+    "content-hash": "08bda156d9126372049fa8daaa4dfd51",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -204,17 +204,68 @@
             "time": "2019-02-11T20:27:36+00:00"
         },
         {
-            "name": "k-community/markdown-field",
-            "version": "1.0.4",
+            "name": "getkirby/geo",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sylvainjule/kirby-markdown-field.git",
-                "reference": "58a34352f34a93b8cfc004c843caefd603617193"
+                "url": "https://github.com/getkirby/geo.git",
+                "reference": "9271cd4085e145b4099b3163644871d775e6f445"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-markdown-field/zipball/58a34352f34a93b8cfc004c843caefd603617193",
-                "reference": "58a34352f34a93b8cfc004c843caefd603617193",
+                "url": "https://api.github.com/repos/getkirby/geo/zipball/9271cd4085e145b4099b3163644871d775e6f445",
+                "reference": "9271cd4085e145b4099b3163644871d775e6f445",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "getkirby/cms": "^3.3"
+            },
+            "type": "kirby-plugin",
+            "scripts": {
+                "analyze": [
+                    "phpstan analyse"
+                ],
+                "fix": [
+                    "php-cs-fixer fix --config .php_cs"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Bastian Allgeier",
+                    "email": "bastian@getkirby.com"
+                }
+            ],
+            "description": "Kirby Geo",
+            "homepage": "https://getkirby.com",
+            "keywords": [
+                "cms",
+                "geo",
+                "kirby",
+                "location",
+                "plugin"
+            ],
+            "support": {
+                "source": "https://github.com/getkirby/geo/tree/master",
+                "issues": "https://github.com/getkirby/geo/issues"
+            },
+            "time": "2019-12-09T17:00:12+00:00"
+        },
+        {
+            "name": "k-community/markdown-field",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sylvainjule/kirby-markdown-field.git",
+                "reference": "0d252244d1d849c19328ce61f6668a32b8ac11b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-markdown-field/zipball/0d252244d1d849c19328ce61f6668a32b8ac11b1",
+                "reference": "0d252244d1d849c19328ce61f6668a32b8ac11b1",
                 "shasum": ""
             },
             "require": {
@@ -239,7 +290,7 @@
                 }
             ],
             "description": "Enhanced markdown editor for Kirby 3",
-            "time": "2019-11-21T18:38:35+00:00"
+            "time": "2019-12-05T11:29:55+00:00"
         },
         {
             "name": "league/color-extractor",
@@ -565,16 +616,16 @@
         },
         {
             "name": "sylvainjule/locator",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sylvainjule/kirby-locator.git",
-                "reference": "de7a7af282c7d6960a2f203c4c70f5a2d4282e3a"
+                "reference": "92a12135204193a03b743d9057bb983af9a819f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sylvainjule/kirby-locator/zipball/de7a7af282c7d6960a2f203c4c70f5a2d4282e3a",
-                "reference": "de7a7af282c7d6960a2f203c4c70f5a2d4282e3a",
+                "url": "https://api.github.com/repos/sylvainjule/kirby-locator/zipball/92a12135204193a03b743d9057bb983af9a819f3",
+                "reference": "92a12135204193a03b743d9057bb983af9a819f3",
                 "shasum": ""
             },
             "require": {
@@ -595,7 +646,7 @@
                 }
             ],
             "description": "A map & geolocation field, built on top of open-source services / Mapbox",
-            "time": "2019-10-30T18:11:17+00:00"
+            "time": "2019-12-04T15:19:22+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -752,6 +803,7 @@
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": {
+        "getkirby/geo": 20,
         "omz13/kirby3-xmlsitemap": 20
     },
     "prefer-stable": false,

@@ -19,8 +19,13 @@
     "issues": "https://github.com/bradshawsguide/website/issues"
   },
   "minimum-stability": "beta",
+  "repositories": [{
+    "type": "vcs",
+    "url": "https://github.com/getkirby/geo"
+  }],
   "require": {
     "getkirby/cms": "^3.0",
+    "getkirby/geo": "dev-master",
     "sylvainjule/locator": "^1.0",
     "omz13/kirby3-xmlsitemap": "@dev",
     "k-community/markdown-field": "^1.0"

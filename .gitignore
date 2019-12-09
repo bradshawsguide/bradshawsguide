@@ -1,7 +1,6 @@
 /etc/ssl/
 /src/accounts/
 /src/plugins/*
-!/src/plugins/geo/
 !/src/plugins/kirby-bradshawsguide
 /vendor/
 /www/.well-known/
