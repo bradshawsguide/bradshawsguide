@@ -14,16 +14,20 @@ class CompanyPage extends Kirby\Cms\Page
     // Provide a list of stations served by this company
     public function stations()
     {
-        foreach ($this->routes() as $route) {
-            $stations[] = array_flatten($route->stops()->yaml());
-        };
+        if ($this->routes()->isNotEmpty()) {
+            foreach ($this->routes() as $route) {
+                $stations[] = array_flatten($route->stops()->yaml());
+            };
 
-        $stations = array_flatten($stations);
+            $stations = array_flatten($stations);
 
-        array_walk($stations, function (&$value, $key) {
-            $value = page('stations/'.$value);
-        });
+            array_walk($stations, function (&$value, $key) {
+                $value = page('stations/'.$value);
+            });
 
-        return $stations;
+            return $stations;
+        } else {
+            return [];
+        }
     }
 }
