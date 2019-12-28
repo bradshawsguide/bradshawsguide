@@ -13,7 +13,7 @@ columns:
             type: select
             options: query
             query:
-              fetch: site.page(places).children
+              fetch: site.page("places").children
               text: "{{ page.title }}"
               value: "{{ page.uid }}"
           region:
@@ -21,7 +21,7 @@ columns:
             type: select
             options: query
             query:
-              fetch: site.page(places).grandchildren
+              fetch: site.page("places").grandchildren
               text: "{{ page.title }}"
               value: "{{ page.uid }}"
           place:

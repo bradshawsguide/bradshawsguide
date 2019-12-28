@@ -21,7 +21,6 @@ class StationsPage extends Kirby\Cms\Page
                     'wikipedia' => $station->wikipedia(),
                     'disused' => $station->disused(),
                     'nationalrail' => $station->nationalrail(),
-                    'latlng' => $station->geolat().','.$station->geolng(),
                     'location' => $station->location()
                 ]
             ];

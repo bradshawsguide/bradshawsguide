@@ -5,7 +5,7 @@ return [
     'cache' => false,
     'debug' => true,
     'url' => 'https://bradshaws.test',
-    'whoops' => true,
+    'whoops' => false,
 ];
 
 // Ensure text files are automatically formatted using preferred style

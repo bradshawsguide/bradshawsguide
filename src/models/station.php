@@ -31,6 +31,13 @@ class StationPage extends Kirby\Cms\Page
         return $trainline;
     }
 
+    // Location for search
+    public function latlng()
+    {
+        $location = $this->location()->toLocation();
+        return $location->lat().','.$location->lon();
+    }
+
     // API consistency
     public function links()
     {
