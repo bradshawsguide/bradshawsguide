@@ -24,21 +24,17 @@ columns:
               fetch: site.page("places").grandchildren
               text: "{{ page.title }}"
               value: "{{ page.uid }}"
-          place:
-            label: Place
-            type: pages
-            multiple: false
           nationalrail:
             label: National Rail station code
             type: text
-          disused:
-            label: Disused station
-            type: text
-            before: disused-stations.org.uk/
           wikipedia:
             label: Wikipedia
             type: text
             before: en.wikipedia.org/wiki/
+          disused:
+            label: Disused station
+            type: text
+            before: disused-stations.org.uk/
   - width: 1/3
     sections:
       related:
@@ -51,3 +47,11 @@ columns:
             center:
               lat: 51.5
               lon: 0
+          place:
+            label: Place
+            type: pages
+            layout: cards
+            image:
+              cover: true
+              ratio: 16/9
+            multiple: false

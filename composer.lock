@@ -108,16 +108,16 @@
         },
         {
             "name": "getkirby/cms",
-            "version": "3.3.1",
+            "version": "3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/kirby.git",
-                "reference": "785e941e41dfbfaa4fe8d43a7c130302bde4539a"
+                "reference": "6bd14bc8099d6c9dbe67ef0582b8c0a2d4c0888c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/kirby/zipball/785e941e41dfbfaa4fe8d43a7c130302bde4539a",
-                "reference": "785e941e41dfbfaa4fe8d43a7c130302bde4539a",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/6bd14bc8099d6c9dbe67ef0582b8c0a2d4c0888c",
+                "reference": "6bd14bc8099d6c9dbe67ef0582b8c0a2d4c0888c",
                 "shasum": ""
             },
             "require": {
@@ -163,7 +163,7 @@
                 "core",
                 "kirby"
             ],
-            "time": "2019-11-26T09:55:04+00:00"
+            "time": "2019-12-17T09:21:54+00:00"
         },
         {
             "name": "getkirby/composer-installer",
@@ -209,12 +209,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/geo.git",
-                "reference": "9271cd4085e145b4099b3163644871d775e6f445"
+                "reference": "acb52e609089fb1728be962561b5b5ca0bff9e38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getkirby/geo/zipball/9271cd4085e145b4099b3163644871d775e6f445",
-                "reference": "9271cd4085e145b4099b3163644871d775e6f445",
+                "url": "https://api.github.com/repos/getkirby/geo/zipball/acb52e609089fb1728be962561b5b5ca0bff9e38",
+                "reference": "acb52e609089fb1728be962561b5b5ca0bff9e38",
                 "shasum": ""
             },
             "require": {
@@ -233,6 +233,9 @@
                     "php-cs-fixer fix --config .php_cs"
                 ]
             },
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Bastian Allgeier",
@@ -249,10 +252,10 @@
                 "plugin"
             ],
             "support": {
-                "source": "https://github.com/getkirby/geo/tree/master",
+                "source": "https://github.com/getkirby/geo/tree/1.0.0",
                 "issues": "https://github.com/getkirby/geo/issues"
             },
-            "time": "2019-12-09T17:00:12+00:00"
+            "time": "2019-12-10T11:51:10+00:00"
         },
         {
             "name": "k-community/markdown-field",
@@ -796,6 +799,7 @@
                 "escaper",
                 "zf"
             ],
+            "abandoned": "laminas/laminas-escaper",
             "time": "2018-04-25T15:48:53+00:00"
         }
     ],
